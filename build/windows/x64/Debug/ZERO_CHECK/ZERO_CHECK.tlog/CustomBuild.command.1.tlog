@@ -1,0 +1,10 @@
+^C:\USERS\HP\ONEDRIVE\ESCRITORIO\TEREST\BUILD\WINDOWS\CMAKEFILES\2B9F4DE019C25B5B05320ACCBD2D3673\GENERATE.STAMP.RULE
+setlocal
+"C:\Program Files\Microsoft Visual Studio\2022\Community\Common7\IDE\CommonExtensions\Microsoft\CMake\CMake\bin\cmake.exe" -SC:/Users/HP/OneDrive/Escritorio/terest/windows -BC:/Users/HP/OneDrive/Escritorio/terest/build/windows --check-stamp-list CMakeFiles/generate.stamp.list --vs-solution-file C:/Users/HP/OneDrive/Escritorio/terest/build/windows/terest.sln
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal & call :cmErrorLevel %errorlevel% & goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd

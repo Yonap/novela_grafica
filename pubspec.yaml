@@ -1,0 +1,53 @@
+name: terest
+description: A new Flutter project.
+
+
+
+version: 1.0.0+1
+
+environment:
+  sdk: '>=3.1.0 <4.0.0'
+
+
+dependencies:
+  flame: ^1.10.0
+  flame_forge2d: ^0.15.1
+  flutter:
+    sdk: flutter
+
+  cupertino_icons: ^1.0.2
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+
+  flutter_lints: ^2.0.0
+
+
+flutter:
+  uses-material-design: true
+  assets:
+  - assets/images/imagen1.png
+  - assets/images/iconmen.png
+  - assets/images/animegirl.png
+  - assets/images/imagen6.png
+  - assets/images/imagen2.png
+  - assets/images/imagen3.png
+  - assets/images/imagen9.png
+  - assets/images/imagen12.png
+  - assets/images/ome.jpeg
+  - assets/images/publicidad.jpeg
+  - assets/images/tienda.jpeg
+  - assets/images/recostado.jpeg
+  - assets/images/casa.jpeg
+  - assets/images/preparado.jpeg
+  - assets/images/sentado.jpeg
+  - assets/images/chica.jpeg
+  - assets/images/entrar.jpeg
+  - assets/images/sitgirl.jpeg
+  - assets/images/servicios.jpeg
+  - assets/images/universidad.jpeg
+  - assets/images/avergonzada.jpeg
+  - assets/images/libreria.jpeg
+  - assets/images/girlibrary.jpeg
+  - assets/images/boyroom.jpeg

@@ -1,0 +1,28 @@
+^C:\USERS\HP\ONEDRIVE\ESCRITORIO\TEREST\BUILD\WINDOWS\CMAKEFILES\2D05F94275BD57A5699109AF0C81F186\FLUTTER_WINDOWS.DLL.RULE
+setlocal
+"C:\Program Files\Microsoft Visual Studio\2022\Community\Common7\IDE\CommonExtensions\Microsoft\CMake\CMake\bin\cmake.exe" -E env FLUTTER_ROOT=C:\src\flutter PROJECT_DIR=C:\Users\HP\OneDrive\Escritorio\terest FLUTTER_ROOT=C:\src\flutter FLUTTER_EPHEMERAL_DIR=C:\Users\HP\OneDrive\Escritorio\terest\windows\flutter\ephemeral PROJECT_DIR=C:\Users\HP\OneDrive\Escritorio\terest FLUTTER_TARGET=C:\Users\HP\OneDrive\Escritorio\terest\lib\main.dart DART_DEFINES=RkxVVFRFUl9XRUJfQVVUT19ERVRFQ1Q9dHJ1ZQ==,RkxVVFRFUl9XRUJfQ0FOVkFTS0lUX1VSTD1odHRwczovL3d3dy5nc3RhdGljLmNvbS9mbHV0dGVyLWNhbnZhc2tpdC8xYWM2MTFjNjRlYWRiZDkzYzVmNWFiYTU0OTRiOGZjM2IzNWVlOTUyLw== DART_OBFUSCATION=false TRACK_WIDGET_CREATION=true TREE_SHAKE_ICONS=false PACKAGE_CONFIG=C:\Users\HP\OneDrive\Escritorio\terest\.dart_tool\package_config.json C:/src/flutter/packages/flutter_tools/bin/tool_backend.bat windows-x64 Debug
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal & call :cmErrorLevel %errorlevel% & goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd
+^C:\USERS\HP\ONEDRIVE\ESCRITORIO\TEREST\BUILD\WINDOWS\CMAKEFILES\BAE36C7F7F00892C2BF6BDD1B015C488\FLUTTER_ASSEMBLE.RULE
+setlocal
+:cmEnd
+endlocal & call :cmErrorLevel %errorlevel% & goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd
+^C:\USERS\HP\ONEDRIVE\ESCRITORIO\TEREST\WINDOWS\FLUTTER\CMAKELISTS.TXT
+setlocal
+"C:\Program Files\Microsoft Visual Studio\2022\Community\Common7\IDE\CommonExtensions\Microsoft\CMake\CMake\bin\cmake.exe" -SC:/Users/HP/OneDrive/Escritorio/terest/windows -BC:/Users/HP/OneDrive/Escritorio/terest/build/windows --check-stamp-file C:/Users/HP/OneDrive/Escritorio/terest/build/windows/flutter/CMakeFiles/generate.stamp
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal & call :cmErrorLevel %errorlevel% & goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd
