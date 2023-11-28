@@ -140,6 +140,10 @@ if %errorlevel% neq 0 goto :VCEnd</Command>
       <ReferenceOutputAssembly>false</ReferenceOutputAssembly>
       <CopyToOutputDirectory>Never</CopyToOutputDirectory>
     </ProjectReference>
+    <ProjectReference Include="C:\Users\HP\OneDrive\Escritorio\terest\build\windows\plugins\audioplayers_windows\audioplayers_windows_plugin.vcxproj">
+      <Project>{834C533E-9C51-35A2-9632-38BE54D3F985}</Project>
+      <Name>audioplayers_windows_plugin</Name>
+    </ProjectReference>
     <ProjectReference Include="C:\Users\HP\OneDrive\Escritorio\terest\build\windows\flutter\flutter_wrapper_app.vcxproj">
       <Project>{D72435B9-BE1C-37B8-ABD5-57E4EF6BFCFE}</Project>
       <Name>flutter_wrapper_app</Name>

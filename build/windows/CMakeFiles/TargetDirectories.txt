@@ -8,3 +8,6 @@ C:/Users/HP/OneDrive/Escritorio/terest/build/windows/flutter/CMakeFiles/INSTALL.
 C:/Users/HP/OneDrive/Escritorio/terest/build/windows/runner/CMakeFiles/terest.dir
 C:/Users/HP/OneDrive/Escritorio/terest/build/windows/runner/CMakeFiles/INSTALL.dir
 C:/Users/HP/OneDrive/Escritorio/terest/build/windows/runner/CMakeFiles/ALL_BUILD.dir
+C:/Users/HP/OneDrive/Escritorio/terest/build/windows/plugins/audioplayers_windows/CMakeFiles/audioplayers_windows_plugin.dir
+C:/Users/HP/OneDrive/Escritorio/terest/build/windows/plugins/audioplayers_windows/CMakeFiles/INSTALL.dir
+C:/Users/HP/OneDrive/Escritorio/terest/build/windows/plugins/audioplayers_windows/CMakeFiles/ALL_BUILD.dir

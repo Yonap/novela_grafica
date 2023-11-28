@@ -1,0 +1,15 @@
+# Target labels
+ nuget-populate
+# Source files and their labels
+C:/Users/HP/OneDrive/Escritorio/terest/build/windows/_deps/nuget-subbuild/CMakeFiles/nuget-populate
+C:/Users/HP/OneDrive/Escritorio/terest/build/windows/_deps/nuget-subbuild/CMakeFiles/84ec4f8cca6a1c92fcda5e027516ee79/nuget-populate.rule
+C:/Users/HP/OneDrive/Escritorio/terest/build/windows/_deps/nuget-subbuild/CMakeFiles/dc588c5a89029f760097242fdd9ba2a4/nuget-populate-complete.rule
+C:/Users/HP/OneDrive/Escritorio/terest/build/windows/_deps/nuget-subbuild/CMakeFiles/911a6ac2f2c1eaacb250a846ca60335a/nuget-populate-build.rule
+C:/Users/HP/OneDrive/Escritorio/terest/build/windows/_deps/nuget-subbuild/CMakeFiles/911a6ac2f2c1eaacb250a846ca60335a/nuget-populate-configure.rule
+C:/Users/HP/OneDrive/Escritorio/terest/build/windows/_deps/nuget-subbuild/CMakeFiles/911a6ac2f2c1eaacb250a846ca60335a/nuget-populate-copyfile.rule
+C:/Users/HP/OneDrive/Escritorio/terest/build/windows/_deps/nuget-subbuild/CMakeFiles/911a6ac2f2c1eaacb250a846ca60335a/nuget-populate-download.rule
+C:/Users/HP/OneDrive/Escritorio/terest/build/windows/_deps/nuget-subbuild/CMakeFiles/911a6ac2f2c1eaacb250a846ca60335a/nuget-populate-install.rule
+C:/Users/HP/OneDrive/Escritorio/terest/build/windows/_deps/nuget-subbuild/CMakeFiles/911a6ac2f2c1eaacb250a846ca60335a/nuget-populate-mkdir.rule
+C:/Users/HP/OneDrive/Escritorio/terest/build/windows/_deps/nuget-subbuild/CMakeFiles/911a6ac2f2c1eaacb250a846ca60335a/nuget-populate-patch.rule
+C:/Users/HP/OneDrive/Escritorio/terest/build/windows/_deps/nuget-subbuild/CMakeFiles/911a6ac2f2c1eaacb250a846ca60335a/nuget-populate-test.rule
+C:/Users/HP/OneDrive/Escritorio/terest/build/windows/_deps/nuget-subbuild/CMakeFiles/911a6ac2f2c1eaacb250a846ca60335a/nuget-populate-update.rule

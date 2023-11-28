@@ -1,7 +1,9 @@
 import 'package:flutter/material.dart';
+import 'package:terest/main.dart';
 import 'package:terest/startplace.dart';
 
 void main() {
+  AudioManager.initialize();
   runApp(const UserApp());
 }
 
@@ -30,28 +32,30 @@ class _UserPageState extends State<UserPage> {
   String username = '';
 
   @override
+  void initState() {
+    super.initState();
+    AudioManager.playBackgroundMusic3();
+  }
+
+  @override
   Widget build(BuildContext context) {
     return Scaffold(
       body: Stack(
         children: [
-          // Imagen de fondo
           Container(
             decoration: const BoxDecoration(
               image: DecorationImage(
-                image: AssetImage(
-                    'assets/images/imagen6.png'), // Ruta de tu imagen de fondo
+                image: AssetImage('assets/images/gif2.gif'),
                 fit: BoxFit.cover,
               ),
             ),
           ),
-
           Center(
             child: Column(
               mainAxisAlignment: MainAxisAlignment.center,
               children: [
                 SizedBox(
-                  width:
-                      200, // Ancho personalizado para centrar la caja de texto
+                  width: 200,
                   child: TextField(
                     onChanged: (value) {
                       setState(() {
@@ -62,9 +66,8 @@ class _UserPageState extends State<UserPage> {
                       labelText: 'Introduce tu nombre de usuario',
                       labelStyle: TextStyle(
                         color: Color.fromARGB(255, 0, 0, 0),
-                        fontSize: 19, // Cambia el tamaño del texto del campo
-                        fontWeight: FontWeight
-                            .bold, // Cambia el grosor del texto del campo
+                        fontSize: 19,
+                        fontWeight: FontWeight.bold,
                       ),
                     ),
                   ),
@@ -72,6 +75,7 @@ class _UserPageState extends State<UserPage> {
                 ElevatedButton(
                   onPressed: username.isNotEmpty
                       ? () {
+                          AudioManager.playBackgroundMusic4();
                           Navigator.push(
                             context,
                             MaterialPageRoute(
@@ -79,17 +83,15 @@ class _UserPageState extends State<UserPage> {
                             ),
                           );
                         }
-                      : null, // Desactiva el botón si username está vacío
+                      : null,
                   style: ElevatedButton.styleFrom(
-                    backgroundColor:
-                        Colors.black, // Cambia el color del botón a negro
+                    backgroundColor: Colors.black,
                   ),
                   child: const Text(
                     'Comenzar historia',
                     style: TextStyle(
-                      fontSize: 20, // Cambia el tamaño del texto
-                      color: Color.fromARGB(
-                          255, 255, 255, 255), // Cambia el color del texto
+                      fontSize: 20,
+                      color: Color.fromARGB(255, 255, 255, 255),
                     ),
                   ),
                 ),
