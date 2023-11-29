@@ -5,6 +5,7 @@ C:/Users/HP/OneDrive/Escritorio/terest/build/windows/runner/Debug/data/flutter_a
 C:/Users/HP/OneDrive/Escritorio/terest/build/windows/runner/Debug/data/flutter_assets/AssetManifest.json
 C:/Users/HP/OneDrive/Escritorio/terest/build/windows/runner/Debug/data/flutter_assets/assets/images/biblioteca.png
 C:/Users/HP/OneDrive/Escritorio/terest/build/windows/runner/Debug/data/flutter_assets/assets/images/coffe.jpg
+C:/Users/HP/OneDrive/Escritorio/terest/build/windows/runner/Debug/data/flutter_assets/assets/images/coneja.png
 C:/Users/HP/OneDrive/Escritorio/terest/build/windows/runner/Debug/data/flutter_assets/assets/images/cuatro.gif
 C:/Users/HP/OneDrive/Escritorio/terest/build/windows/runner/Debug/data/flutter_assets/assets/images/diez(1)folleto.png
 C:/Users/HP/OneDrive/Escritorio/terest/build/windows/runner/Debug/data/flutter_assets/assets/images/doormido.gif
@@ -12,6 +13,7 @@ C:/Users/HP/OneDrive/Escritorio/terest/build/windows/runner/Debug/data/flutter_a
 C:/Users/HP/OneDrive/Escritorio/terest/build/windows/runner/Debug/data/flutter_assets/assets/images/flotar.mp3
 C:/Users/HP/OneDrive/Escritorio/terest/build/windows/runner/Debug/data/flutter_assets/assets/images/fondo.mp3
 C:/Users/HP/OneDrive/Escritorio/terest/build/windows/runner/Debug/data/flutter_assets/assets/images/fondo2.mp3
+C:/Users/HP/OneDrive/Escritorio/terest/build/windows/runner/Debug/data/flutter_assets/assets/images/fondo3.mp3
 C:/Users/HP/OneDrive/Escritorio/terest/build/windows/runner/Debug/data/flutter_assets/assets/images/gif2.gif
 C:/Users/HP/OneDrive/Escritorio/terest/build/windows/runner/Debug/data/flutter_assets/assets/images/iconmen.png
 C:/Users/HP/OneDrive/Escritorio/terest/build/windows/runner/Debug/data/flutter_assets/assets/images/inicio.mp3

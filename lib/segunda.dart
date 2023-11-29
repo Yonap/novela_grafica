@@ -18,7 +18,7 @@ class _SegundaState extends State<Segunda> {
   @override
   void initState() {
     super.initState();
-    AudioManager.playBackgroundMusic1();
+    AudioManager.playBackgroundMusic2();
   }
 
   @override
@@ -164,7 +164,7 @@ class _TerceraState extends State<Tercera> {
   @override
   void initState() {
     super.initState();
-    AudioManager.playBackgroundMusic1();
+    AudioManager.playBackgroundMusic5();
   }
 
   @override
@@ -412,7 +412,7 @@ class _CafeteriaState extends State<Cafeteria> {
   @override
   void initState() {
     super.initState();
-    AudioManager.playBackgroundMusic1();
+    AudioManager.playBackgroundMusic2();
   }
 
   @override
@@ -552,7 +552,7 @@ class _QuintoState extends State<Quinto> {
   @override
   void initState() {
     super.initState();
-    AudioManager.playBackgroundMusic1();
+    AudioManager.playBackgroundMusic5();
   }
 
   @override
@@ -829,7 +829,7 @@ class _UltimoState extends State<Ultimo> {
   @override
   void initState() {
     super.initState();
-    AudioManager.playBackgroundMusic1();
+    AudioManager.playBackgroundMusic2();
   }
 
   @override
@@ -961,7 +961,7 @@ class _Ultimo1State extends State<Ultimo1> {
   @override
   void initState() {
     super.initState();
-    AudioManager.playBackgroundMusic1();
+    AudioManager.playBackgroundMusic5();
   }
 
   @override
@@ -1017,6 +1017,16 @@ class _Ultimo1State extends State<Ultimo1> {
                   ),
                 ),
               ],
+            ),
+          ),
+          Align(
+            alignment: Alignment.topCenter,
+            child: SizedBox(
+              width: MediaQuery.of(context).size.width *
+                  0.4, // Ajusta el ancho según el tamaño de la pantalla
+              height: MediaQuery.of(context).size.height *
+                  0.8, // Ajusta el alto según el tamaño de la pantalla
+              child: Image.asset('assets/images/coneja.png', fit: BoxFit.fill),
             ),
           ),
           Align(

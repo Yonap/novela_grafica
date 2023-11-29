@@ -17,7 +17,7 @@ class _Segunda2State extends State<Segunda2> {
   @override
   void initState() {
     super.initState();
-    AudioManager.playBackgroundMusic1();
+    AudioManager.playBackgroundMusic5();
   }
 
   @override //emula unua funcion principal
@@ -171,7 +171,7 @@ class _Tercera2State extends State<Tercera2> {
   @override
   void initState() {
     super.initState();
-    AudioManager.playBackgroundMusic1();
+    AudioManager.playBackgroundMusic2();
   }
 
   @override
@@ -422,7 +422,7 @@ class _Quinto2State extends State<Quinto2> {
   @override
   void initState() {
     super.initState();
-    AudioManager.playBackgroundMusic1();
+    AudioManager.playBackgroundMusic5();
   }
 
   @override
@@ -551,7 +551,7 @@ class _Sexto2State extends State<Sexto2> {
   @override
   void initState() {
     super.initState();
-    AudioManager.playBackgroundMusic1();
+    AudioManager.playBackgroundMusic2();
   }
 
   @override
@@ -831,7 +831,7 @@ class _Ultimo2State extends State<Ultimo2> {
   @override
   void initState() {
     super.initState();
-    AudioManager.playBackgroundMusic1();
+    AudioManager.playBackgroundMusic5();
   }
 
   @override
